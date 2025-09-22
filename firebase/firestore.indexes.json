@@ -1,0 +1,196 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "seeds",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "nurseryName",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "quantityAvailableinKGS",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "seeds",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "PageIndex",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "nurseryName",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "remainingSeeds",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "seeds",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "PageIndex",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "spices",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "seeds",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "PageIndex",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "remainingSeeds",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "seeds",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "PageIndex",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "nurseryName",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "spices",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "seeds",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "PageIndex",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "nurseryName",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "remainingSeeds",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "seedsDistributionPerInstitution",
+      "queryScope": "COLLECTION_GROUP",
+      "fields": [
+        {
+          "fieldPath": "matchedWithFieldBy",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "plantingSite",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "dateofDelivery",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "seedsDistributionPerInstitution",
+      "queryScope": "COLLECTION_GROUP",
+      "fields": [
+        {
+          "fieldPath": "matchedWithField",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "plantingSite",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "dateofDelivery",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "allTreesDelivered",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "PlanterCompany",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "NUMBER_OF_TREES_DELIVERED",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "treesVisitationHistory",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "fieldName",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "visitDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "totalTreesPerSpecies",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "isTerrestrial",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "totalTrees",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "allTreesDelivered",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "isDTBandKCB",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "PlanterCompany",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "NUMBER_OF_TREES_DELIVERED",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
